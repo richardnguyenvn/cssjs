@@ -111,19 +111,19 @@ jQuery(divpopup).attr('id', 'myModalthanh');
 jQuery(divpopup).attr('class', 'thanhfaceseo-modal');
 jQuery( "body" ).append(divpopup);
 var titleform='Đăng ký Form';
-var urlform="https://docs.google.com/forms/d/e/1FAIpQLSfLmBC0f3ipvca5eZeH48HotuzHmbF96XAMhjaMhOFKjmerRg/formResponse";
+var urlform="https://docs.google.com/forms/d/e/1FAIpQLSdpDoucLuDqnr9apogbLF_D2oZJbZu1uHsoVrxu2Oj2eJdulQ/formResponse";
 var urlchuyen=window.location.href;
-var hovaten="417205409";
-var dienthoai="386165074";
-var email="1294822629";
-var duan="1247784825";
+var hovaten="1603245811";
+var dienthoai="63072211";
+var email="1361266948";
+var duan="536800866";
 var submittitle='Đăng ký tư vấn';
 var submittedform=false;
 var titleheader="ĐĂNG KÝ TƯ VẤN NHẬN ƯU ĐÃI";
-var hotline="0931342229";
+var hotline="0906485889";
 var linkhientai=window.location.href;
 var thoigiancookie=1;
-var thoigianhien=10000;
+var thoigianhien=120000;
 var formdiv='<div class="popup-body"><iframe id="hidden_iframethanh" name="hidden_iframethanh" onload="thanhxet()" style="display:none;"></iframe><div class="box-thanh-form"><div class="img"></div><div class="thanhform-level1"><h2><a class="close-thanhfaceseo-modal">X</a></h2></div><div id="cems-subscription" class="cems-subscription"><div class="sss-form-content thanhgform_wrapper"> <form class="form-hasBg" onsubmit="submittedform=true;" target="hidden_iframethanh" method="post" action="'+urlform+'"><div class="gform_body"><h2 class="form-title yellow-text-gradient">'+titleheader+'</h2><div class="description">					<p>Vui lòng điền chính xác các thông tin bên dưới để nhận tài liệu của dự án</p>				</div>     <ul class="thanhtop_label"> ';
 formdiv+= '<li class="sss-form-control gfield ">  <div class="sss-form-control-inner">                               <div class="ginput_container">                  <input class="medium" name="entry.'+hovaten+'" maxlength="70" id="your_name" placeholder="Họ tên" value="" type="text">                </div>              </div>            </li> ';
 formdiv+= '<li class="sss-form-control gfield ">              <div class="sss-form-control-inner">                              <div class="ginput_container">                  <input class="medium" name="entry.'+email+'" maxlength="320" id="email_addr" placeholder="Email" value="" type="email"/>                </div>              </div>            </li> ';
@@ -140,7 +140,7 @@ jQuery("#myModalthanh").html(formdiv);
 function thanhxet(){
 
 if(submittedform) {
-	window.location="https://hocvienfaceseo.com";
+	window.location="https://datvenbienhotram.blogspot.com/";
 	
 	 if(document.cookie.indexOf("adf") == -1)
                    {
